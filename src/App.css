@@ -3,12 +3,12 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 7vmin;
 }
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  height: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -20,3 +20,38 @@
 .App-link {
   color: #09d3ac;
 }
+
+.main-section {
+  padding: 45px 0px;
+}
+
+.myform {
+  text-align: left;
+}
+
+.myfooter {
+  background-color: #282c34;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  height: 80px;
+  margin-top: 45px;
+}
+
+.main-menu {
+  background: #00000047;
+      width: 100%;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: #fff !important;
+}
+
+/* #basic-navbar-nav .navbar-nav, #basic-navbar-nav ul {
+  display: flex;
+  width: 100%;
+  float: right;
+} */
